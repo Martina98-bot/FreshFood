@@ -1,0 +1,50 @@
+#logo{
+	margin-left: 25%;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-left:25%;
+}
+table {
+    background-color: orange;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: orange;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #ff8040;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 50px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #008000;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td , th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: #400040;
+}

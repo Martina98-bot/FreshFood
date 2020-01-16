@@ -1,0 +1,23 @@
+<CATALOG>
+	<ADMIN>
+		<TYPE>Amministratore</TYPE>
+
+		<USERNAME>admin123</USERNAME>
+	</ADMIN>
+	
+	<ADMIN>
+		<TYPE>Amministratore</TYPE>
+
+		<USERNAME>Anna98</USERNAME>
+
+	</ADMIN>
+	
+	<ADMIN>
+	   <TYPE>Amministratore</TYPE>
+	
+	   <USERNAME>qwerty123</USERNAME>
+	
+	</ADMIN>
+	
+	
+</CATALOG>

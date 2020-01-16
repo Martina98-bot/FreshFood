@@ -1,0 +1,235 @@
+@Ch3{
+	font-family: monospace,Georgia,Courier;
+	font-size: 20px;
+}
+#mainbody{
+	transition:margin-left .5s;
+	padding:20px;
+}
+#element{
+	display: inline-block;
+	position: relative;
+	border:1px solid rgba(0,0,0,0.1);
+	box-shadow: 1px 5px 5px 3px rgba(0,0,0,0.2);
+	margin:30px 50px 30px 32px;
+	min-height: 200px;
+	min-width: 200px;
+}
+#content{
+	position: absolute;
+	bottom:0;
+	width:100%;
+	height: 30%;
+	color:rgba(255,255,255,1.0);
+	text-align:center;
+	margin: auto;
+	background-color: #2C2C2C;
+	box-shadow: 1px 1px 1px 1px 	#2C2C2C;
+}
+
+@keyframes spin_1{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+@keyframes spin_1_1{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+@keyframes spin_2{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+@keyframes spin_3{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+@keyframes spin_4{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+@keyframes spin_5{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+} 
+
+@keyframes spin_51{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+@keyframes spin_52{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+} 
+
+@keyframes spin_61{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+@keyframes spin_62{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+@keyframes spin_71{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+@keyframes spin_72{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+@keyframes spin_81{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+@keyframes spin_82{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+@keyframes spin_91{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+@keyframes spin_92{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+/* Loader 10  (Triple loader)*/
+
+@keyframes spin_10{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+/*Loader 11*/
+#loader11{
+	position: absolute;
+	left:65px;
+	top:30px;
+	height:50px;
+	width: 50px; 
+	border:8px solid rgba(255,255,255,0);
+	border-top:8px solid #2C2C2C;
+	
+	border-radius: 50%;
+	animation: spin_11 2s linear infinite;
+}
+#antiLoader11{
+	position: absolute;
+	left:75px;
+	top:40px;
+	height: 30px;
+	width: 30px;
+	border:8px solid rgba(255,255,255,0);
+	border-left:8px solid #2C2C2C;
+	border-right:8px solid #2C2C2C;
+	border-bottom:8px solid #2C2C2C;
+	border-radius: 50%;
+	animation: spin_11 2s linear infinite reverse;
+}
+#outerlayer11{
+	position: absolute;
+	left:55px;
+	top:21px;
+	height:70px;
+	width: 70px;
+	border:8px solid rgba(255,255,255,0);
+	border-left:8px solid #2C2C2C;
+	border-right:8px solid #2C2C2C;
+	border-bottom:8px solid #2C2C2C;
+	border-radius: 50%;
+	animation: spin_11 2s linear infinite reverse; 
+}
+@keyframes spin_11{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+@keyframes spin_12{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+
+@keyframes spin_13{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+@keyframes spinFO_14{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}s
+}
+
+@keyframes spin_14{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+@keyframes spin_a14{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+} 
+
+@keyframes spino_14{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+#segment_frame{
+	position: absolute;
+	left:30px;
+	top:30px;
+}
+
+@keyframes seg16_1{
+	
+	0%{transform:scaleY(1);}
+	100%{transform: scaleY(.5);}
+}
+@keyframes seg16_2{
+	0%{transform: scaleY(1);}
+	100%{transform: scaleY(2);}
+}
+
+
+@keyframes seg18_1{
+	
+	0%{transform:scaleY(1);}
+	100%{transform: scaleY(.5);}
+}
+
+@keyframes seg19_1{
+0%{transform:scaleY(1);
+		opacity: 1.0;}
+	100%{transform: scaleY(.5);
+		opacity: 0.2;}
+}
+
+@keyframes seg20_1{
+	
+	0%{transform:scaleY(1);
+		opacity: 1.0;}
+	100%{transform: scaleY(.5);
+		opacity: 0.2;}
+}
+
+
+@keyframes seg21_1{
+	0%{opacity: 1;
+		transform: rotateX(0deg) rotateZ(0deg);}
+	100%{opacity: .5;
+		transform: rotateX(360deg) rotateZ(10deg);}
+}

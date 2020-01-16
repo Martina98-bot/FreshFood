@@ -1,0 +1,55 @@
+.show-user{
+	margin-left: 25%;
+	margin-right:0px;
+	width: 50%;
+	height: 50%;
+}
+.table {
+   margin-right:5%;
+   margin-left:5%;
+   padding-right:5%;
+   
+}
+th {
+background-color: #cfcfcf;
+border: 1px solid #ffffff;
+
+}
+/*Prodotto quantità zero*/
+.td-0{
+	border: 1px solid #ffffff;
+	background-color: #939393;
+	padding-left:5%;
+	font-weight: bold;
+}
+/*Prodotto quantità miggiore di 0*/
+.td-1{
+	border: 1px solid #ffffff;
+	background-color: #d7d7d7;
+	padding-left:15%;
+}
+/*Nuovo prodotto*/
+.td-2{
+	border: 1px dotted #ffffff;
+	background-color: #ebebeb;
+	padding-left:15%;
+	font-weight: bold;
+}
+/
+#elimina{
+	margin-left: 25%;
+	margin-right:0px;
+	width: 50%;
+	height: 50%;
+}
+#carrello{
+	margin-left:0px;
+	margin-right:0px;
+}
+.coloreCella{
+	background-color: #808080;
+	color:#ffffff;
+}
+#remove{
+	margin-left:50%;
+}

@@ -1,0 +1,60 @@
+
+
+
+.welcome{
+		font-family:arial;
+		color: #ff8040;
+		font-size:30px;
+		background-color: #ff8040;
+		border: 2px solid #000000;
+		border-left: 4px solid #c0c0c0;
+		padding:10px;
+		margin-right:3%;
+		margin-left:7%;
+}
+.welcome-paragraph{
+		font-family:arial;
+		color: #ffffff;
+		font-size:20px;
+		background-color: #b4b4b4;
+		border-left: 4px solid #808080;
+		padding:10px;
+		margin-left:7%;
+		margin-right:3%;
+		padding-right:18%;
+}
+@media (max-width: 900px) {
+  	.welcome {
+   		font-size:18px;
+ 	 }
+ 	 	.welcome-paragraph{
+  	font-size:12px;
+  	}
+  }
+  @media (max-width: 500px) {
+  	.welcome {
+   		font-size:12px;
+ 	 }
+  	.welcome-paragraphl{
+  		font-size:7px;
+  	}
+  
+  }
+body{
+	background-color:#ffffff;	
+}
+.form-inline{
+	margin-left:15%;
+}
+
+/*Regola le dimensioni del form per accedere e registrarsi*/
+#accedieregistrati {
+	margin: 0 30% 0 30%;
+}
+/*regola la posizione della form di log-out*/
+.log-out{
+	margin-top:19%;
+}
+.button-cart{
+	margin-left : 5%;
+}
